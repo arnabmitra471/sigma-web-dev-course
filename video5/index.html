@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img src="train.png" alt="train image" height="230">
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <!-- table head -->
+            <th>Sr no.</th>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Marks</th>
+            <th>Favourite Language</th>
+        </thead>
+        <tbody>
+            <!-- table body -->
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>Aakash</td>
+                <td colspan="2">56: javascript</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>Aditya</td>
+                <td rowspan="2">78</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>Akash Mandal</td>
+                <td>PHP</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>Arkaprava Bhattacharya</td>
+                <td>45</td>
+                <td rowspan="2">Python</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+                <td rowspan="2">Arnab Mitra</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- table footer -->
+            <td>6</td>
+            <td>6</td>
+            <td>Belal Sardar</td>
+            <td>80</td>
+            <td>Foot</td>
+        </tfoot>
+    </table>
 </body>
+
 </html>
