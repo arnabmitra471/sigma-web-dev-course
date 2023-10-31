@@ -1,0 +1,13 @@
+.bg-yellow
+{
+    background-color: yellow;
+}
+.red
+{
+    color: red;
+}
+#firstdiv
+{
+    border: 2px solid darkslateblue;
+    border-radius: 10px;
+}
