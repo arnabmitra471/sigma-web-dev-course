@@ -1,0 +1,9 @@
+/* inline css - In this method we add a style attribute to the elements we want to apply styles in.
+Internal css - In this method we add a style tag to the head section of our webpage and write the styles there. In this way if we want to change the style of any element then we have to update the style at just one place
+External css  In this method we create a sparate file with .css file extension and write the styles in that file. Then we have to link the CSS file with the webpage using the <link> tag */
+h1 
+{
+    color: yellow;
+    background-color: red;
+    text-decoration: underline;
+}
