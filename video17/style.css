@@ -1,0 +1,56 @@
+/* Element Selector */
+div
+        {
+            background-color: red;
+        }
+        /* Class Selector */
+        .container
+        {
+            background-color: yellow;
+        }
+        #green
+        {
+            background-color: green;
+        }
+        /* Descendent selector */
+        div  p
+        {
+            color: cadetblue;
+            background-color: brown;
+        }
+        /* Child Selector */
+        div > p
+        {
+            color: rgb(37, 97, 133);
+            background-color: rgb(41, 172, 106);
+            font-weight: bold;
+        }
+        /* Universal Selector */
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:link
+        {
+            color:green;
+        }
+        a:visited
+        {
+            color: yellow;
+        }
+        a:hover
+        {
+            background-color: blueviolet;
+            color: coral;
+        }
+        a:active
+        {
+            color: crimson
+        }
+        p:first-child
+        {
+            color: aqua;
+            background-color: firebrick
+        }
