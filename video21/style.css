@@ -1,0 +1,39 @@
+/* The specificity of element selectors is 1 */
+h1 {
+    color: aqua;
+}
+
+/* The specificity of class selectors is 10 */
+.cred {
+    color: blue !important;
+    background-color: rgb(184, 134, 11) !important;
+}
+
+.cpurple {
+    color: rgb(177, 78, 177);
+    background-color: rgb(37, 146, 55);
+}
+/* The specificity of id selectors is 100 */
+#first
+{
+    padding: 22px;
+    margin: 12px;
+    color: seagreen;
+}
+
+.yellow {
+    color: yellow;
+    background-color: brown;
+}
+/* The specificity of attribute selectors is 10 */
+[data-info= ah]
+{
+    text-transform: uppercase;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    color: maroon;
+    width: 500px;
+    margin: auto;
+}
+ /* The specificity of inline styles is 1000 */
+ /* The specificity of inline styles is the highest but can be overwritten in only one way that is !important rule */
