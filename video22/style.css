@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 12px;
+}
+.box
+{
+    width: 80vw;
+    border: 2px solid rgb(86, 163, 86);
+    background-color: aquamarine;
+    margin: auto;
+    height: 10vh;
+}
+.container
+{
+    width: 80vw;
+    border: 2px solid rgb(86, 163, 86);
+    background-color: aquamarine;
+    margin: 23px auto;
+    /* height: 80vh; */
+    font-size: 18px;
+    min-height: 80vh;
+}
+.container > div
+{
+    font-size: 2rem;
+    width: 50%;
+    border: 3px solid #4c5d4c;
+}
+.mycont
+{
+    color: rgb(158, 187, 211);
+    font-size: 22px;
+    width: 80vw;
+    border: 2px solid gold;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: auto;
+}
+.container > div >div
+{
+    width: 50%;
+    border: 2px solid orchid;
+}
