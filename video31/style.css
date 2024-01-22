@@ -1,0 +1,24 @@
+body
+{
+    background-color: red;
+}
+
+@media only screen and (max-width: 455px)
+{
+    body
+    {
+        border: 2px solid purple;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .box
+    {
+        width: 344px;
+        height: 344px;
+        background-color: steelblue;
+        padding: 3px;
+        margin: 3px;
+    }
+}
