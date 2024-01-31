@@ -1,0 +1,47 @@
+:root
+{
+    --primary-back-color: rgb(154, 134, 173);
+    --primary-color: rgb(179, 196, 211);
+    --sec-back-color: rgb(119, 65, 46);
+    --sec-color: white;
+    --hover-color: seashell;
+    --hover-back-color: blueviolet;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    position: sticky;
+    top: 0px;
+
+}
+.navbar ul li
+{
+    list-style: none;
+    position: relative;
+    left: 165px;
+    color: var(--primary-color);
+}
+.navbar ul li:hover
+{
+    color: var(--hover-color);
+    background-color: var(--hover-back-color);
+}
+.navbar li
+{
+    display: inline-block;
+    border: none;
+    background-color: var(--sec-back-color);
+    color: var(--sec-color);
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 21px;
+}
+.navbar ul
+{
+    background-color: var(--primary-back-color);
+}
+
