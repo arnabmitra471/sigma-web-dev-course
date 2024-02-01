@@ -33,3 +33,25 @@ console.log(p)
 radius++; */  // Not Allowed when identifiers are declared with const keyword
 
 
+let stud_name = "Vrinda"; // String
+let y = 22;  // Number
+let z = 3.55; // Number
+let isLoggedIn = true; // Boolean
+let q = undefined;
+let mysym = Symbol("This is a new symbol")
+let w = null;
+console.log(stud_name,y,z,isLoggedIn,q,mysym,w);
+console.log(typeof stud_name,typeof y,typeof z,typeof isLoggedIn,typeof q,typeof mysym,typeof w);
+
+let obj = {
+    name: "Arnab",
+    "job code": 561288,
+    "Programming language": ["Javascript","Python","C"],
+    "learning": "C++"
+}
+obj.salary = 5000000000;
+obj.isHandsome = true;
+console.log(obj);
+console.log(typeof obj);
+
+
