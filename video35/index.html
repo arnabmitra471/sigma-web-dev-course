@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        
+        .box:first-child
+        {
+            background-color: palevioletred
+        }
+        .box::first-line
+        {
+            text-decoration: underline;
+            background-color: rgb(135, 110, 158);
+            color: darkblue;
+        }
+        .boxes *{
+            border: 2px solid orange;
+        }
+        /* p,.box,[data-color="primary"]
+        {
+            padding-top: 35px;
+        } */
+        .box:nth-child(even)
+        {
+            background-color: chartreuse;
+        }
+        .box:nth-child(3)
+        {
+            background-color: rgb(255,99,71);
+        }
+        .box:nth-last-child(2)
+        {
+            background-color: thistle;
+        }
+        .boxes::before
+        {
+            content: "Arnab is a good boy";
+            color: brown;
+        }
+        .boxes::after
+        {
+            content: "Sigma course is also good";
+            color: blueviolet;
+        }
+        ::selection
+        {
+            background-color: peru;
+            color: blanchedalmond;
+        }
+        .box::first-letter
+        {
+            background-color: powderblue;
+        }
+        input::placeholder
+        {
+            color: rgb(91, 91, 146);
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey I am box 1</div>
+        <div class="box" data-color="primary">Hey I am box 2</div>
+        <div class="box">Hey I am box 3</div>
+        <div class="box">Hey I am box 4</div>
+        <div class="box">Hey I am box 5</div>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam dolorem delectus, nihil officiis sequi nulla sint, inventore ipsum beatae iure hic? Fugiat minus qui explicabo omnis dolore provident? Vel sequi recusandae quibusdam maxime eligendi nemo vitae nostrum expedita, rem a, quaerat enim alias aliquam!
+        </p>
+    </div>
+    <input type="text" placeholder="Enter your name here">
+</body>
+</html>
