@@ -1,0 +1,17 @@
+img{
+    float: left;
+}
+.cards
+{
+    border: 2px solid green;
+    display: flow-root;
+}
+.card
+{
+    border: 2px solid rebeccapurple;
+}
+.card:nth-child(3)
+{
+    background-color: rgb(158, 134, 105);
+    clear: both;
+}
