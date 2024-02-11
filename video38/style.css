@@ -1,0 +1,48 @@
+/* Properties for flex container */
+.container
+{
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* There is no justify items in flexbox */
+    gap: 40px 10px;
+}
+.item
+{
+    height: 62px;
+    width: 62px;
+    background-color: blueviolet;
+    border: 2px solid chocolate;
+    flex-grow: 1;
+    /* margin: 4px; */
+}
+
+/* Properties for flex items */
+.order-1{
+    order: 1;
+}
+.order-2
+{
+    order: 2;
+}
+.order-3
+{
+    order: 3;
+}
+.order-100
+{
+    order: 100;
+}
+.item1
+{
+    /* flex-grow: 4; */
+    flex-shrink: 3;
+    align-self: center;
+}
+.item2{
+    align-self: center;
+}
