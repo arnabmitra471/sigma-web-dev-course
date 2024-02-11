@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // Generate a random number
+
+        let rand = Math.random();
+        let firstPart, secondPart, thirdPart;
+
+        // Let's generate the first part
+        if (rand < 0.33) {
+            firstPart = "Crazy"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            firstPart = "Amazing";
+        }
+        else {
+            firstPart = "Fire";
+        }
+        rand = Math.random()
+        // Let's generate the second part
+        if (rand < 0.33) {
+            secondPart = "Engine"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            secondPart = "Foods"
+        }
+        else {
+            secondPart = "Garments";
+        }
+        // Let's generate the third part
+        rand = Math.random()
+        if (rand < 0.33) {
+            thirdPart = "Bros"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            thirdPart = "Limited";
+        }
+        else {
+            thirdPart = "Hub";
+        }
+
+        console.log(`${firstPart} ${secondPart} ${thirdPart}`)
+
+    </script>
+</body>
+
+</html>
