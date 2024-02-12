@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children parent and sibling nodes</title>
+    <style>
+        .box
+        {
+            width: 56px;
+            height: 45px;
+            border: 2px solid greenyellow;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .student-details,th,td
+        {
+            /* border: 2px solid olive; */
+            border-collapse: collapse;
+        }
+        .student-details
+        {
+            width: 80%;
+            height: 80%;
+        }
+        th,td
+        {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        td
+        {
+            text-align: center;
+            vertical-align: bottom;
+            height: 50px;
+        }
+        tr:hover
+        {
+            background-color: coral;
+            border: 2px solid plum;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- This is a comment -->
+        <div class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        <div class="box">box 4</div>
+        <div class="box">box 5</div>
+    </div>
+
+    <table class="student-details">
+        <caption>Student Details</caption>
+        <thead>
+        <tr>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Roll No</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arnab</td>
+            <td>19</td>
+            <td>5</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Vrinda</td>
+            <td>23</td>
+            <td>34</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shaarav</td>
+            <td>25</td>
+            <td>34</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Aakash</td>
+            <td>30</td>
+            <td>21</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sangeeta</td>
+            <td>33</td>
+            <td>17</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Sayantika</td>
+            <td>23</td>
+            <td>19</td>
+            <td>87</td>
+        </tr>
+    </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
