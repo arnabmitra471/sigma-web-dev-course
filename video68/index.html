@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting elements with ids and classes</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+        body
+        {
+            font-family: "Noto Sans",sans-serif;
+            font-style: italic;
+        }
+        .box
+        {
+            height: 34px;
+            width: 53px;
+            border: 2px solid olive;
+            margin: 34px;
+            padding: 34px;
+            text-align: center;
+        }
+        #firstPara
+        {
+            color: blueviolet;
+            border: 2px solid lime;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        #firstPara:hover
+        {
+            background-color: burlywood;
+        }
+        #firstPara::first-line
+        {
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Bhupendra Jogi 1</div>
+        <div class="box">Bhupendra Jogi 2</div>
+        <div class="box" id="box3">Bhupendra Jogi 2.5</div>
+        <div class="box">Bhupendra Jogi 3</div>
+        <div class="box">Bhupendra Jogi 4</div>
+        <div class="box">Bhupendra Jogi 5</div>
+    </div>
+    <p id="firstPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deserunt nemo at magni ut nihil, minus quam in atque, labore voluptas quo assumenda voluptatem quibusdam quis doloribus error? Quaerat officiis doloremque officia natus rerum exercitationem corrupti expedita dicta quisquam illum cupiditate a voluptatibus aspernatur accusamus enim et, odit, laboriosam unde? Quisquam error quos eos. Sapiente neque officia vel nisi expedita maxime eveniet in at! Modi maxime quod neque. Consectetur amet eaque perferendis nulla saepe, eum aut omnis aspernatur illo architecto suscipit fugit vel, nam, assumenda totam rem alias hic doloremque voluptatum id? Nostrum illo deserunt tenetur voluptatem, voluptate ad inventore aliquam architecto, sapiente, itaque consequatur perspiciatis accusantium! Similique cupiditate aliquid doloremque alias, doloribus non in vel labore voluptates, iure sed est dolorum pariatur velit mollitia quae voluptas iste deserunt? Omnis temporibus culpa hic, neque vero harum, id vel alias aliquam adipisci, at ducimus vitae. Ex dolores neque sed qui eius?</p>
+    <script src="script.js"></script>
+</body>
+</html>
