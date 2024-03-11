@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing post request on /about</title>
+</head>
+<body>
+    
+    <script>
+        
+        async function testAbout_Post(){
+            let response = await fetch("/about",{method:"POST"});
+            let parsed_response = await response.text();
+            console.log(parsed_response)
+        }
+        testAbout_Post();
+    </script>
+</body>
+</html>
