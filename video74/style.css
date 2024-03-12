@@ -1,0 +1,43 @@
+/* .container
+{
+    width: 134px;
+    height: 34px;
+    border: 2px solid goldenrod;
+    padding: 23px;
+
+}
+.childContainer
+{
+    
+} */
+#fname
+{
+    margin: 34px;
+    padding: 23px;
+    border: 2px solid rgb(96, 131, 96);
+    border-radius: 20px;
+    font-size: 23px;
+}
+#fname::placeholder
+{
+    color: blueviolet;
+}
+#btn
+{
+    margin: 24px;
+    padding: 15px;
+    background-color: cadetblue;
+    font-weight: bold;
+    border: 2px solid rgb(167, 66, 29);
+    border-radius: 15px;
+    cursor: pointer;
+}
+#btn:hover
+{
+    background-color: navy;
+    color: white;
+    text-decoration: underline;
+    transition: color 2s, background-color 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}

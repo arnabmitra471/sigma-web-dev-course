@@ -1,0 +1,21 @@
+.child
+{
+    background-color: chocolate;
+    border: 2px solid green;
+    padding: 14px;
+    margin: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.childContainer
+{
+    background-color: beige;
+    padding: 14px;
+    margin: 14px;
+}
+.container
+{
+    background-color: rgb(77, 197, 107);
+    padding: 14px;
+    margin: 14px;
+}
