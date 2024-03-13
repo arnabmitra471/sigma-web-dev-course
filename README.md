@@ -6,6 +6,8 @@
  * HTML
  * CSS
  * JavaScript
+ * React
+ * Express
  * Projects
  * Backend development
  * And many more
