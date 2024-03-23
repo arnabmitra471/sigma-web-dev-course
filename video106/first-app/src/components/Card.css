@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+    width: 18%;
+    height: 18%;
+    margin-top: 20px;
+    padding: 23px;
+    font-family: "Encode Sans Expanded",sans-serif;
+    animation-name: change-bg;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+.card h1
+{
+    color: gold;
+    text-decoration: underline;
+
+}
+.card .card-desc
+{
+    color: white;
+    
+}
+.btn{
+    padding: 10px 15px;
+    background-color:cadetblue;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: coral;
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes change-bg{
+    from
+    {
+        background-color: rgb(126, 126, 58);
+    }
+    to
+    {
+        background-color: rgb(38, 99, 91);
+    }
+}
+
