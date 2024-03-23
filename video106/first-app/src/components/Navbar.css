@@ -1,0 +1,35 @@
+nav,ul{
+    display: flex;
+    
+}
+li
+{
+    list-style: none;
+}
+ul
+{
+    gap: 10px;
+}
+nav
+{
+    background-color: beige;
+    padding: 20px;
+}
+nav .search
+{
+    position: relative;
+    left: 825px;
+    border-radius: 20px;
+    padding: 10px;
+}
+nav .search::placeholder
+{
+    color: rgb(106, 85, 126);
+}
+nav ul li:hover
+{
+    background-color:rgb(146, 136, 95);
+    color: rgb(68, 82, 121);
+    text-decoration: underline;
+    cursor: pointer;
+}
