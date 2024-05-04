@@ -1,0 +1,33 @@
+
+nav ul
+{
+  display: flex;
+  gap: 10px;
+  background-color: orange;
+  padding: 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+li
+{
+  list-style: none;
+}
+li > a
+{
+  color: white;
+}
+li a:hover
+{
+  color: rgb(168, 146, 189);
+  background-color: rgb(112, 59, 40);
+  transition-property: background-color color;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
+ul li a
+{
+  text-decoration: none;
+}
