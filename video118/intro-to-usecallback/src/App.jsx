@@ -9,7 +9,7 @@ function App() {
   const [adjective,setAdjective] = useState("good");
 
   const getAdjective = useCallback(()=>{
-    setAdjective("another")
+    return "another "+count
   },[count])
 
   return (
