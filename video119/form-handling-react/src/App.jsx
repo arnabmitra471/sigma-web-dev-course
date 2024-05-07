@@ -17,8 +17,12 @@ function App() {
   }
 
   const onSubmit = async (data)=> {
-    await delay(2) // simulating network delay
+    let res = await fetch("http://localhost:3000/",{method: "POST", headers:{
+      "Content-Type": "application/json",
+    },body: JSON.stringify(data)})
+    let parsedRes = await res.json()
     console.log(data)
+    console.log(parsedRes)
   }
   return (
     <>
