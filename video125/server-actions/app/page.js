@@ -28,7 +28,7 @@ export default function Home() {
           <button type="submit" className="bg-blue-500 p-4 my-4 rounded-lg text-white hover:text-purple-300 font-bold hover:bg-blue-600 transition-all duration-200 hover:scale-90">Submit</button>
         </div>
       </form>
-      {loading && <p className="text-center text-blue-500">Submitting</p>}
+      {loading && <p className="text-center text-blue-500 mt-4">Submitting</p>}
       </div>
   );
 }
